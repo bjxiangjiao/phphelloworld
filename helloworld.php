@@ -14,3 +14,16 @@ $endTimestamp = strtotime($yesterday . ' 23:59:59');
 echo "昨天零点的时间戳: " . $startTimestamp . "\n";
 echo "昨天二十四点的时间戳: " . $endTimestamp . "\n";
 
+// 设置时区，确保与您的服务器时区匹配
+date_default_timezone_set('Asia/Shanghai');
+
+// 获取上个月1号的日期
+$lastMonthFirstDay = date("Y-m-01", strtotime("last month"));
+
+// 获取这个月1号的日期
+$thisMonthFirstDay = date("Y-m-01");
+
+// 输出结果
+echo "上个月1号: " . $lastMonthFirstDay . "\n";
+echo "这个月1号: " . $thisMonthFirstDay . "\n";
+
