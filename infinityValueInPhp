@@ -1,0 +1,7 @@
+<?php
+$positiveInfinity = INF;
+$negativeInfinity = -INF;
+print($positiveInfinity/$negativeInfinity);
+print($positiveInfinity*$negativeInfinity);
+print($positiveInfinity+$negativeInfinity);
+print($positiveInfinity-$negativeInfinity);
