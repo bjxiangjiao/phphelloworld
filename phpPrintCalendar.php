@@ -54,6 +54,6 @@ function printCalendar($year, $month) {
     echo "</table>";
 }
 
-// 使用示例：打印2023年4月的日历
-printCalendar(2023, 4);
+// 使用示例：打印2025年1月的日历
+printCalendar(2025, 1);
 ?>
